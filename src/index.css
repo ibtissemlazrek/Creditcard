@@ -22,6 +22,21 @@ padding-left: 70px;
 .app-title{
   color:white;
 }
+.main{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.users{
+  display: flex;
+  flex-direction :column;
+  width: 20%;
+  justify-content:space-around;
+  padding: 150px;
+
+  
+  
+}
 
 
 

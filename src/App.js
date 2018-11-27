@@ -3,8 +3,22 @@ import './App.css';
 import capture from './images/Capture.PNG'
 import image from './images/Capture1.PNG'
 class App extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      number: ,
+      name:,
+      date:
+
+    }
+  }
+
+  onChange=()=>{
+    
+  }
+
   render() {
-    return (
+    return (<div className="main">
       <div className="app">
         <div className="app-intro">
           <h1 className="app-title"> CREDIT CARD</h1>
@@ -42,8 +56,15 @@ class App extends Component {
 
           </div>
         </div>
-      </div>
 
+      </div>
+      <div className="users">
+        <input type="text" className="input" placeholder=" CARD NUMBER" onChange="" />
+        <input type="text" className="input" placeholder=" YOUR NAME" />
+        <input type="text" className="input" placeholder=" XX/YY" />
+
+      </div>
+    </div>
 
 
     );

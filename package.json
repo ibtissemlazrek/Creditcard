@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://ibtissemlazrek.github.io/CreditCard/ ",
+  "homepage":"https://ibtissemlazrek.github.io/Creditcard/",
 
   "dependencies": {
     "react": "^16.6.3",
